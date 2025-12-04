@@ -213,3 +213,20 @@ footer {
     color: var(--accent);
     text-align: center;
 }
+/* INTRO PARTITION STYLING */
+.intro-partition {
+    background: var(--bg2);   /* slightly different background */
+    color: var(--text);       /* text color */
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    border-left: 5px solid var(--accent); /* optional accent line */
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.intro-partition p {
+    max-width: 900px;
+    margin: 0 auto;
+}
