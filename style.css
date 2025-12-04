@@ -98,16 +98,19 @@ body.dark .mode-btn {
     display: inline-block;
     margin-top: 18px;
     padding: 12px 28px;
-    background: var(--accent);
-    color: white;
+    background: transparent;        /* Transparent background */
+    color: var(--accent);           /* Green text */
+    border: 2px solid var(--accent); /* Green border */
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.2s;
+    transition: all 0.3s ease;     /* Smooth hover transition */
 }
 
 .cta-btn:hover {
-    opacity: 0.85;
+    background: #1b5e20; /* Dark green fill on hover */
+    color: white;         /* White text on hover */
+    border-color: #1b5e20; /* Border matches background on hover */
 }
 
 .cta-btn.large {
