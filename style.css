@@ -100,7 +100,10 @@ body.dark .mode-btn {
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 8rem;          
+    font-weight: 700;        
+    font-family: 'Caudex', serif;  
+    letter-spacing: 1px;
 }
 
 .cta-btn {
