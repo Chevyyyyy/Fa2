@@ -37,23 +37,9 @@ body.light {
     align-items: center;
 }
 
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar a {
-    color: var(--text-light);
-    text-decoration: none;
+.logo {
+    font-size: 1.8rem;
     font-weight: bold;
-}
-
-.btn-small {
-    background: var(--accent);
-    padding: 6px 12px;
-    border-radius: 5px;
-    color: white !important;
 }
 
 /* MODE BUTTON */
@@ -65,7 +51,6 @@ body.light {
     cursor: pointer;
     background: white;
     outline: 2px solid var(--accent);
-    margin-left: 20px;
     transition: 0.3s;
 }
 
