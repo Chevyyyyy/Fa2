@@ -116,4 +116,26 @@
 .info-box {
     background: #1c1c1c;
     padding: 25px;
-    border-rad
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* FINAL CTA */
+.final-cta {
+    text-align: center;
+    padding: 70px 20px;
+    background: #4CAF50;
+    color: white;
+}
+
+.final-cta h2 {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
