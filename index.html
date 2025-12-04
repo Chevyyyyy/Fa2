@@ -6,24 +6,28 @@
     <title>GreenSense Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark">
 
     <!-- NAVIGATION -->
     <header class="navbar">
-        <div class="logo">GreenSense</div>
+        <div class="logo">🌿 GreenSense</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Visual</a></li>
                 <li><a href="#">Info</a></li>
-                <li><a href="#" class="sign-btn">Sign In</a></li>
+                <li><a href="#" class="btn-small">Sign In</a></li>
             </ul>
         </nav>
+
+        <!-- LIGHT/DARK TOGGLE BUTTON -->
+        <button id="modeToggle" class="mode-btn"></button>
     </header>
 
     <!-- HERO SECTION -->
     <section class="hero">
+        <div class="overlay"></div>
+
         <div class="hero-content">
             <h1>GreenSense: Eco-Friendly, Effortless Living</h1>
             <p>Monitor and manage your home's consumption with smart, sustainable technology.</p>
@@ -35,6 +39,7 @@
     <section class="features">
         <div class="container">
             <h2>Features</h2>
+
             <div class="features-grid">
                 <div class="feature-box">
                     <h3>Smart Monitoring</h3>
@@ -54,7 +59,7 @@
         </div>
     </section>
 
-    <!-- VISUAL ELEMENT SECTION -->
+    <!-- VISUAL SECTION -->
     <section class="visual-section">
         <div class="container">
             <h2>Visual Overview</h2>
@@ -66,7 +71,7 @@
         </div>
     </section>
 
-    <!-- INFORMATION SECTION -->
+    <!-- INFO SECTION -->
     <section class="info-section">
         <div class="container info-grid">
 
@@ -88,7 +93,7 @@
         </div>
     </section>
 
-    <!-- FINAL CTA SECTION -->
+    <!-- FINAL CTA -->
     <section class="final-cta">
         <h2>Start Your Eco-Friendly Journey Today</h2>
         <p>Join thousands of users saving energy and embracing sustainability.</p>
@@ -100,5 +105,6 @@
         <p>© 2025 GreenSense. All Rights Reserved.</p>
     </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
