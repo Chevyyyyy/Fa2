@@ -75,13 +75,17 @@ body.dark .mode-btn {
 
 /* HERO */
 .hero {
-    height: 85vh;
-    background: url("tipaklong.jpg") no-repeat center/cover;
-    position: relative;
+    background: url('tipaklong.jpg') no-repeat center center;
+    background-size: cover; 
+    height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
 }
+
 
 .overlay {
     position: absolute;
